@@ -67,5 +67,8 @@ body.addEventListener('mouseout', e=>{
     if (e.target.classList.contains("keynote")||e.target.classList.contains("black-keynote")){
         e.target.classList.remove("active")
     }
+    if (e.target.classList.contains("keynote")||e.target.classList.contains("black-keynote")){
+        e.target.parentNode.classList.remove("active")
+    }
 })
 
