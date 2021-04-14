@@ -11,7 +11,7 @@ let words = document.querySelectorAll(".word")
 let gCount = 0
 
 body.addEventListener('mousedown', e=>{
-    console.log(e.target)
+   
     if (e.target.classList.contains("black-key")|| e.target.classList.contains("key")){
         e.target.classList.add("active")
     }if (e.target.classList.contains("keynote")||e.target.classList.contains("black-keynote")){
