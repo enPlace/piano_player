@@ -1,3 +1,4 @@
 #piano_player
 
-A mini piano player app. The piano keys will play a sound and change colors when pressed. The user can also press the associated keys on the computer keyboard to play the sounds. For sharp keys, hold down the "s" key in conjunction with the note name. 
+A mini piano player app. The piano keys will change colors when pressed. 
+When the start button is pressed, the first lyric will be highlighted. When the correct key is pressed, the next lyric will be highlighted. The reset button returns all lyrics to their original color. 
